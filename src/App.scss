@@ -1,0 +1,71 @@
+.form {
+  .twinker {
+    color: rgb(85, 83, 83);
+  }
+  .second {
+    .twinker {
+      height: 63vh;
+    }
+    .input{
+        border: none;
+        outline: none;
+        font-size: 17px;
+        font-weight: 500;
+    }
+  }
+
+  .enabled {
+    line-height: 90px;
+    vertical-align: middle;
+  }
+  .part1 {
+    .in {
+      color: red;
+    }
+    .input{
+        border: none;
+        outline: none;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    .se{
+        font-size: 17px;
+        font-weight: 500;
+        border: none;
+    }
+    .instruction{
+        border-radius: 5px;
+    }
+  }
+}
+
+// @media (max-width:576px) {
+//   .form {
+//     .design {
+//       font-size: 14px;
+//     }
+//     .configure {
+//         display: none  !important;
+      
+//     }
+//   }
+// }
+
+.form{
+    .configure{
+        .config,
+        .manual {
+          font-size: 1.2vmax;
+          font-weight: 500;
+        }
+    }
+}
+@media (max-width: 576px){
+    .form{
+        .configure{
+            
+             display: none !important;
+            
+        }
+    }
+}
